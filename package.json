@@ -1,0 +1,25 @@
+{
+  "name": "whistle-type",
+  "version": "1.0.0",
+  "description": "Whistle Controlled Letters",
+  "main": "index.html",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "author": "louisremi@prototypo.io",
+  "license": "MIT",
+  "dependencies": {
+    "Genese": "byte-foundry/genese.ptf",
+    "normalize.css": "^3.0.3",
+    "prototypo-canvas": "^1.6.3",
+    "prototypo.js": "^0.8.6",
+    "venus.ptf": "byte-foundry/venus.ptf",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "eslint": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-shelter": "^1.0.1"
+  }
+}
