@@ -5,8 +5,8 @@
 		"node": true,
 		"amd": true,
 		"mocha": true,
-    "es6": true,
-    "worker": true
+		"es6": true,
+		"worker": true
 	},
 	"plugins": [
 	],
@@ -15,9 +15,9 @@
 		"no-unused-vars": 2,
 		"comma-dangle": 0
 	},
-  "globals": {
+	"globals": {
 		"prototypo": false,
 		"performance": false,
-    "PrototypoCanvas": false
+		"PrototypoCanvas": false
 	}
 }
