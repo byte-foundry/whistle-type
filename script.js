@@ -1,9 +1,9 @@
 // fork getUserMedia for multiple browser versions, for those
 // that need prefixes
 navigator.getUserMedia = (navigator.getUserMedia ||
-                          navigator.webkitGetUserMedia ||
-                          navigator.mozGetUserMedia ||
-                          navigator.msGetUserMedia);
+							navigator.webkitGetUserMedia ||
+							navigator.mozGetUserMedia ||
+							navigator.msGetUserMedia);
 
 if ( !navigator.getUserMedia ) {
 	alert('getUserMedia not supported in your browser');
@@ -63,7 +63,11 @@ function initPrototypo() {
 		instance.displayChar( char );
 		instance.subset = '';
 		instance.update( values );
-		instance.view.setCenter( 300, -350 );
+		instance.view.setCenter( 350, -380 );
+		instance.zoom = 0.7;
+		instance.currGlyph.fillColor = '#FFFFFF';
+		instance.view
+
 		initAudio( values, instance );
 
 		prototypo.paper.view.update();

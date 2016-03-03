@@ -5,20 +5,31 @@
 	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css" type="text/css" media="screen" />
 	<style>
 		html,
-		body {
+		body,
+		#main {
 			height: 100%;
 			overflow: hidden;
+			background-color: #333;
 		}
 
 		canvas {
 			display: block;
+			background-color: #333;
+		}
+
+		#main {
+			display: flex;
+		}
+
+		#main > canvas {
+			margin: auto;
 		}
 	</style>
 </head>
 <body>
 	<div id="main" role="main">
 		<!--<canvas id="sound" width="600" height="100"></canvas>-->
-		<canvas id="letter" width="1024" height="1024"></canvas>
+		<canvas id="letter" width="600" height="600"></canvas>
 	</div>
 
 	<script src="node_modules/whatwg-fetch/fetch.js"></script>
